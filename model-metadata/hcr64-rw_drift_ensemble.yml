@@ -15,5 +15,5 @@ license: "CC-BY-4.0"
 data_inputs: ILI%
 methods: Uses most recent historical data, and no bootstrapping was used. 
 methods_long: Uses RW() and DRIFT() to make predictions. Both functions are from the fable package. varying window sizes were used for the two functions, and the final prediction is an average of the two.
-ensemble_of_models: false
+ensemble_of_models: true
 ensemble_of_hub_models: false
